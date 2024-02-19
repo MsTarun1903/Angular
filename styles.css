@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    background-color: azure;
+}
+
+button{
+    margin-left: 20px;
+    background-color:cadetblue;
+    border-radius: 5px;
+    color:white;
+}
+
+button:hover{
+    background-color: azure;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
